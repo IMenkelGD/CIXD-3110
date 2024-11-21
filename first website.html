@@ -3,7 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ian Menkel</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            /* Styling for the animated title */
+            .animated-title {
+                font-size: 36px;
+                font-weight: bold;
+                color: blue;
+                text-align: center;
+                margin-top: 20px;
+                animation: fadeInAndBounce 2s ease-in-out infinite;
+            }
+    
+            /* Keyframes for the animation */
+            @keyframes fadeInAndBounce {
+                0% {
+                    opacity: 0;
+                    transform: translateY(-20px);
+                }
+                50% {
+                    opacity: 1;
+                    transform: translateY(10px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!-- Animated title -->
+        <h1 class="animated-title">Ian Menkel</h1>
+    </body>
 
     <style>
         body {
@@ -33,9 +68,6 @@
 </head>
 
 <body>
-    <header>
-        <h1>Ian Menkel</h1>
-    </header>
 
     <section class="hobbies">
         <h2>Hobbies</h2>
