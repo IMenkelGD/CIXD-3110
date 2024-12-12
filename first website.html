@@ -204,6 +204,86 @@
         <!-- Displaying the logo -->
         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Charlotte_FC_logo.svg/640px-Charlotte_FC_logo.svg.png"
             alt="Charlotte FC Logo" width="300">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dog</title>
+</head>
+
+<body>
+    <h1>My Dog</h1>
+    <img class='dog-image' src="dog-image.jpeg" alt="Dalmatian dog with a toy" width="500">
+</body>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaky Distortion Effect</title>
+    <style>
+        .dog-image {
+border: 1px solid greeen;
+animation: shaky-distortion 10s linear; 
+        }
+        /*Shake animation */
+        @keyframes shaky-distortion {
+            0% {
+                transform: translate(0px, 0px) rotate(0deg);
+            }
+            10% {
+                transform: translate(-5px, 5px) rotate(-2deg);
+            }
+            20% {
+                transform: translate(5px, -5px) rotate(2deg);
+            }
+            30% {
+                transform: translate(-5px, -5px) rotate(-1deg);
+            }
+            40% {
+                transform: translate(5px, 5px) rotate(1deg);
+            }
+            50% {
+                transform: translate(-3px, 3px) rotate(0deg);
+            }
+            60% {
+                transform: translate(3px, -3px) rotate(1deg);
+            }
+            70% {
+                transform: translate(-3px, -3px) rotate(-1deg);
+            }
+            80% {
+                transform: translate(3px, 3px) rotate(0deg);
+            }
+            90% {
+                transform: translate(-2px, 2px) rotate(1deg);
+            }
+            100% {
+                transform: translate(0px, 0px) rotate(0deg);
+            }
+        }
+
+        /* Image styles */
+        .dog-image {
+            display: block;
+            margin: 0 auto;
+            width: 500px;
+            animation: shaky-distortion 1s infinite;
+        }
+    </style>
+
+ <title>Gray Gradient Background</title>
+ <style>
+     /* Gradient background */
+     body {
+         margin: 0;
+         height: 250vh;
+         background: linear-gradient(to bottom, #d3d3d3, #808080);
+         color: white;
+     }
+
+     h1 {
+         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+     }
+ </style>
     </body>
 
 
